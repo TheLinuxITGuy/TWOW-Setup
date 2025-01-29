@@ -4,8 +4,9 @@
 
 
 ## 🛠️ Installation
-This script makes it easy to install tDF, pfQuest, pfQuest-turtle, SuperAPI, and SuperWoW on Linux
+This script makes it easy to install tDF, pfQuest, pfQuest-turtle, SuperAPI, and SuperWoW on Linux and Windows
 
+### Linux
 1. Install twow from Lutris
 2. Download this script
 3. From a Terminal: 
@@ -14,5 +15,13 @@ This script makes it easy to install tDF, pfQuest, pfQuest-turtle, SuperAPI, and
     3. Point Lutris to `SuperWoWlauncher.exe`
     4. Start Turtle WoW and enjoy
 
-## 💖 Donate
-https://www.paypal.com/donate/?hosted_button_id=WPTX2BMBARSG2
+### Windows
+1. Download and install Turtle WoW from [turtle-wow.org](https://turtle-wow.org/)
+2. Download this script
+3. Update the directory on line 13 of `TWOW-Setup.ps1` to point to the location where you installed Turtle WoW (where WoW.exe is stored)
+3. From an Administrator PowerShell prompt or Windows Terminal:
+    1. Type `./TWOW-Setup.ps1`
+    2. Create or update a shortcut to `SuperWoWlauncher.exe` wherver you'd like (on your desktop for example)
+    2. Start Turtle WoW from the newly created shortcut and enjoy
+
+> **_NOTE:_** SuperWoW is flagged as a Trojan by Windows Defender. This is a false positive as stated on [the github issue](https://github.com/balakethelock/SuperWoW/issues/20#issuecomment-2186479946). Therefore, this script creates a Windows Defender exception for the Turtle WoW directory before downloading SuperWoW.
