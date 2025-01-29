@@ -17,9 +17,10 @@ This script makes it easy to install tDF, pfQuest, pfQuest-turtle, SuperAPI, and
 
 ### Windows
 1. Download and install Turtle WoW from [turtle-wow.org](https://turtle-wow.org/)
-2. Download this script
-3. Update the directory on line 13 of `TWOW-Setup.ps1` to point to the location where you installed Turtle WoW (where WoW.exe is stored)
-3. From an Administrator PowerShell prompt or Windows Terminal:
+2. Install [Git for Windows](https://git-scm.com/downloads/win)
+3. Download this script
+4. Update the `$TWOW_DIR` variable in `TWOW-Setup.ps1` to point to the location where you installed Turtle WoW (where WoW.exe is stored)
+5. From an Administrator PowerShell prompt or Windows Terminal:
     1. Type `./TWOW-Setup.ps1`
     2. Create or update a shortcut to `SuperWoWlauncher.exe` wherver you'd like (on your desktop for example)
     2. Start Turtle WoW from the newly created shortcut and enjoy
