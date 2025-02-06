@@ -7,8 +7,8 @@
 This script makes it easy to install tDF, pfQuest, pfQuest-turtle, SuperAPI, and SuperWoW on Linux
 
 1. Install twow from Lutris
-2. Download this script
-3. Copy and paste this command into your terminal:
+2. Download this script and open Terminal from its location 
+3. Copy/paste this command into your Terminal:
 ```
 chmod u+x TWOW-Setup.sh && ./TWOW-Setup.sh
 ```
