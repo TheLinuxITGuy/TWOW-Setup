@@ -27,10 +27,10 @@ mv "${ADDONS_DIR}/Turtle-Dragonflight/Interface/TargetingFrame" "${TWOW_DIR}/Int
 cd "$TWOW_DIR"
 
 # Download the SuperWoW release
-wget https://github.com/balakethelock/SuperWoW/releases/download/Release/SuperWoW.release.1.3.zip
+wget https://github.com/balakethelock/SuperWoW/releases/download/Release/SuperWoW.release.1.5.1.zip
 
 # Extract the zip file
-unzip SuperWoW.release.1.3.zip
+unzip SuperWoW.release.1.5.1.zip
 
 # Remove the zip file
-rm SuperWoW.release.1.3.zip
+rm SuperWoW.release.1.5.1.zip
