@@ -15,5 +15,5 @@ chmod u+x TWOW-Setup.sh && ./TWOW-Setup.sh
 4. Point Lutris to `SuperWoWlauncher.exe`
 5. Start Turtle WoW and enjoy
 
-## 💖 Donate
+## 💖 Sponsor
 https://www.paypal.com/donate/?hosted_button_id=WPTX2BMBARSG2
